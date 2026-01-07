@@ -1,7 +1,8 @@
 # js_common_lib
 
-- 라이브러리 생성 테스트 코드
+### 라이브러리 생성 템플릿 초기 코드
 > rollup, rollup-plugin 사용
+
 
 ---
 - 실행

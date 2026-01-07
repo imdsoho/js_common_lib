@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" crossorigin="anonymous"></script>
+    <script type="module" src="/dist/bundle.esm.js"></script>
+    <script type="module" src="sample.js"></script>
+</head>
+<body>
+    <div id="div_data">hello world.</div>
+
+    <script type="module">
+        import {sum} from '/dist/bundle.esm.js';
+        console.log(sum(1, 2));
+    </script>
+</body>
+</html>
